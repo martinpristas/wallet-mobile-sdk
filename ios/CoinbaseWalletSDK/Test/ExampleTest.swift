@@ -8,6 +8,7 @@
 import XCTest
 @testable import CoinbaseWalletSDK
 
+@available(iOS 13.0, *)
 class ExampleTest: XCTestCase {
 
     func testMWPClientConfigure() {
